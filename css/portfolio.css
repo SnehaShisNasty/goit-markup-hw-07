@@ -7,7 +7,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.block-button {
+.radio__button {
   display: block;
   color: var(--title-text-color);
   font-weight: 500;
@@ -19,8 +19,8 @@
   border: none;
   padding: 6px 22px;
 }
-.block-button:hover,
-.block-button:focus {
+.radio__button:hover,
+.radio__button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -29,10 +29,10 @@
   transition: background-color 250ms var(--cubic-bezier),
     color 250ms var(--cubic-bezier);
 }
-.block-list > .item:not(:last-child) {
+.radio__list > .radio__item:not(:last-child) {
   margin-right: 8px;
 }
-.block-list {
+.radio__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -43,7 +43,7 @@
   margin-left: -30px;
   margin-top: -30px;
 }
-.card-set > .item {
+.card-set > .card-set__item {
   flex-basis: calc((100% - 30px * 3) / 3);
   margin-left: 30px;
   margin-top: 30px;
@@ -56,10 +56,10 @@
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.card-content {
+.card__content {
   padding: 20px 24px;
 }
-.card-content > .card-heading {
+.card__content > .card__heading {
   margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -67,16 +67,16 @@
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.card-content > .card-text {
+.card__content > .card__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
-.card-img {
+.card__box-img {
   position: relative;
   overflow: hidden;
 }
-.card-overlay {
+.card__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -91,11 +91,11 @@
   transition: transform 250ms var(--cubic-bezier),
     opacity 250ms var(--cubic-bezier);
 }
-.card:hover .card-overlay {
+.card:hover .card__overlay {
   transform: translateY(0);
   opacity: 1;
 }
-.text-overlay {
+.overlay__text {
   font-size: 18px;
   line-height: 1.5;
   color: #ffffff;
