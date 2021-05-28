@@ -75,7 +75,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-\ .header-page {
+.header-page {
   background-color: #ffffff;
 }
 .container {
@@ -85,7 +85,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.header-block {
+.header-page__block {
   display: flex;
   align-items: center;
 }
@@ -105,7 +105,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-.logo > .word {
+.logo__word {
   color: var(--title-text-color);
 }
 .menu__list {
@@ -169,7 +169,6 @@ body {
 }
 .contacts__link > .link__icon {
   margin-right: 10px;
-  fill: currentColor;
 }
 .contacts__item .contacts__link:hover,
 .contacts__item .contacts__link:focus {
@@ -177,24 +176,6 @@ body {
 }
 .contacts__list .contacts__item:not(:last-child) {
   margin-right: 30px;
-}
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
-
-.section-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.7;
-  text-align: center;
 }
 
 .footer-page {
@@ -209,10 +190,7 @@ body {
   padding-bottom: 60px;
   margin-right: 60px;
 }
-.footer__logo {
-  display: inline-flex;
-  margin-bottom: 20px;
-}
+
 .footer-page__block .logo__word {
   color: #ffffff;
 }
@@ -269,7 +247,7 @@ body {
   height: 22px;
 }
 .footer-page__block .social__link:hover,
-.footer-page__block .social_link:focus {
+.footer-page__block .social__link:focus {
   background-color: #2196f3;
 }
 .footer-page__block .block__heading {

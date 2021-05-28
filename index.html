@@ -10,26 +10,24 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!---Хедер-->
     <header class="header-page">
       <div class="container">
-        <div class="header-block">
+        <div class="header-page__block">
           <!---навигация-->
           <nav class="menu">
-            <a class="menu__logo logo link" href="./index.html"
-              ><span>Web</span><span class="word">Studio</span></a
+            <a class="menu__logo logo" href="./index.html"
+              >Web<span class="logo__word">Studio</span></a
             >
             <ul class="menu__list list">
               <li class="menu__item">
-                <a class="menu__link current link" href="./index.html">
+                <a
+                  class="menu__link menu__link--current link"
+                  href="./index.html"
+                >
                   <span>Студия</span></a
                 >
               </li>
@@ -92,10 +90,10 @@
       <!---Секция-2-->
       <section class="section-feature">
         <div class="container">
-          <h2 class="visually-hidden">Преимущества нашей компании</h2>
+          <h2 class="section-feature__title">Преимущества нашей компании</h2>
           <ul class="section-feature__list list">
             <li class="section-feature__item">
-              <h3 class="section-feature__title">Внимание к деталям</h3>
+              <h3 class="section-feature__heading">Внимание к деталям</h3>
               <p class="section-feature__text">
                 Идейные соображения, а также<br />
                 начало повседневной работы по<br />
@@ -103,7 +101,7 @@
               </p>
             </li>
             <li class="section-feature__item">
-              <h3 class="section-feature__title">Пунктуальность</h3>
+              <h3 class="section-feature__heading">Пунктуальность</h3>
               <p class="section-feature__text">
                 Задача организации, в особенности <br />
                 же рамки и место обучения кадров <br />
@@ -111,7 +109,7 @@
               </p>
             </li>
             <li class="section-feature__item">
-              <h3 class="section-feature__title">Планирование</h3>
+              <h3 class="section-feature__heading">Планирование</h3>
               <p class="section-feature__text">
                 Равным образом консультация с <br />
                 широким активом в значительной <br />
@@ -119,7 +117,7 @@
               </p>
             </li>
             <li class="section-feature__item">
-              <h3 class="section-feature__title">Современные технологии</h3>
+              <h3 class="section-feature__heading">Современные технологии</h3>
               <p class="section-feature__text">
                 Значимость этих проблем настолько <br />
                 очевидна, что реализация плановых <br />
